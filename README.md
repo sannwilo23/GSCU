@@ -138,6 +138,8 @@
 2065        │  [未来] GPC65升级，应对俱乐部代号耗尽危机
 ```
 
-本设定集最后更新：2026-01-26 12:57
+本设定集最后更新：2026-01-26 13:11
 
 版本：v8 Beta 1
+
+链接：![`https://github.com/MarchBeta2087/GSCU`](https://github.com/MarchBeta2087/GSCU)
