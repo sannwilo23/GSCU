@@ -16,26 +16,16 @@ jobs:
         with:
           python-version: 3.x
 
+      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
+
+      - uses: actions/cache@v4
+        with:
+          key: mkdocs-material-${{ env.cache_id }}
+          path: ~/.cache
+          restore-keys: |
+            mkdocs-material-
+
       - run: pip install mkdocs-material
 
-      # ========== 部署到项目站点：marchbeta2087.github.io/GSCU/ ==========
-      - name: Build for Project Site
-        run: mkdocs build
-
-      - name: Deploy to Project Site
-        run: mkdocs gh-deploy --force
-
-      # ========== 部署到用户站点：marchbeta2087.github.io/ ==========
-      - name: Build for User Site
-        run: |
-          mkdocs build -f mkdocs.user.yml
-          # 创建 .nojekyll 文件（GitHub Pages 不处理 Jekyll）
-          touch site_user/.nojekyll
-
-      - name: Deploy to User Site
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: main
-          publish_dir: ./site_user
-          external_repository: MarchBeta2087/marchbeta2087.github.io
+      # 明确指定配置文件
+      - run: mkdocs gh-deploy --force --config-file mkdocs.yml
