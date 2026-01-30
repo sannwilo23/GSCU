@@ -1,7 +1,7 @@
 site_name: GSCU 全球亚文化俱乐部联盟
 site_url: https://marchbeta2087.github.io/GSCU/
-docs_dir: .        # 保持现有结构
-site_dir: site
+docs_dir: docs           # 改为 docs 子目录
+site_dir: site           # 构建输出目录（在根目录，不在 docs 内）
 
 theme:
   name: material
@@ -20,25 +20,18 @@ theme:
         icon: material/brightness-4
         name: 切换到浅色模式
 
-# 排除不需要的目录
-exclude_docs: |
-  .github/
-  .git/
-  hooks/
-  site/
-  *.yml
-  *.py
-  .gitignore
-  README.md
-  ChangeLog.md
-
-# 使用 extra 变量
-extra:
-  img_path: /GSCU/图片/
-
 plugins:
   - search
 
-# MkDocs 1.4+ 的 hooks 配置（使用 Python 脚本作为模块）
-hooks:
-  - hooks/copy_images.py
+nav:
+  - 首页: index.md
+  - 全球亚文化俱乐部联盟: GSCU介绍及附件文档/全球亚文化俱乐部联盟.md
+  - GSCU宪章: GSCU介绍及附件文档/GSCU宪章.md
+  - GSCU联盟契约: GSCU介绍及附件文档/GSCU联盟契约.md
+  - GSCU亚文化指导方针: GSCU介绍及附件文档/GSCU亚文化指导方针.md
+  - GSCU介绍: GSCU介绍及附件文档/
+  - 俱乐部介绍: 俱乐部介绍及附件文档/
+  - 队介绍: 队介绍及附件文档/
+  - 据点介绍: 据点介绍/
+  - 其他文档: 其他文档/
+  - 故事: 故事/
