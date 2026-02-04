@@ -2,7 +2,7 @@
 
 以下时间均为 CST。
 
-## v9 Beta 2 2026 年 2 月 4 日 17:44
+## v9 Beta 2 2026 年 2 月 4 日 18:30
 
 1. 彻底使用 Pandoc 样式的垂直引号（故事、ChangeLog）也不例外。
    1. 故事/GSCU 与 Lisp.md
