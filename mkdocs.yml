@@ -38,9 +38,14 @@ plugins:
 nav:
   - 首页: index.md
 
+  - 设定集简介: README.md
+
+  - 更新记录: ChangeLog.md
+  
   - GSCU介绍:
       - 目录首页: GSCU介绍及附件文档/index.md
       - 全球亚文化俱乐部联盟: GSCU介绍及附件文档/全球亚文化俱乐部联盟.md
+      - 【历史资料】全球亚文化俱乐部联盟宣言: GSCU介绍及附件文档/【历史资料】全球亚文化俱乐部联盟宣言.md
       - GSCU宪章: GSCU介绍及附件文档/GSCU宪章.md
       - GSCU联盟契约: GSCU介绍及附件文档/GSCU联盟契约.md
       - GSCU亚文化指导方针: GSCU介绍及附件文档/GSCU亚文化指导方针.md
@@ -74,6 +79,11 @@ nav:
       - 一块铁矿石的非凡经历: 其他文档/一块铁矿石的非凡经历.md
       - 草莓VVI: 其他文档/草莓VVI.md
       - GSCU十大禁忌: 其他文档/GSCU十大禁忌.md
+      - 我在GSCU当画师的这9年里: 其他文档/我在GSCU当画师的这9年里.md
+      - Color32日记: 其他文档/Color32日记.md
+      - 该回家了: 其他文档/该回家了.md
+      - 我为什么退出GSCU: 其他文档/我为什么退出GSCU.md
+      - 赤焰奇侠行: 其他文档/赤焰奇侠行.md
 
   - 故事:
       - 目录首页: 故事/index.md
