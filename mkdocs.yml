@@ -36,9 +36,9 @@ plugins:
   - search
 
 nav:
-  - 首页: index.md
+  - Home: README.md
 
-  - 设定集简介: README.md
+  - 首页: index.md
 
   - 更新记录: ChangeLog.md
   
