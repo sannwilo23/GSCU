@@ -36,12 +36,6 @@ plugins:
   - search
 
 nav:
-  - Home: README.md
-
-  - 首页: index.md
-
-  - 更新记录: ChangeLog.md
-  
   - GSCU介绍:
       - 目录首页: GSCU介绍及附件文档/index.md
       - 全球亚文化俱乐部联盟: GSCU介绍及附件文档/全球亚文化俱乐部联盟.md
