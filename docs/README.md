@@ -171,7 +171,7 @@
 
 本设定集最后更新：2026-02-07 17:00 CST（2026-02-07 09:00 UTC）
 
-版本：v9 Beta 5
+版本：v9 Beta 6
 
 仓库链接：[`https://github.com/MarchBeta2087/GSCU`](https://github.com/MarchBeta2087/GSCU)
 
